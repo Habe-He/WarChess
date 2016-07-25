@@ -1,0 +1,114 @@
+//
+//  const.h
+//  ParkourGame
+//
+//  Created by haibo yin on 3/27/14.
+//
+//
+
+#ifndef ParkourGame_const_h
+#define ParkourGame_const_h
+
+#define MAX_SKILL_NUM 2
+#define MAX_ITEM_NUM 2
+
+//#define DEBUG_DRAW_LAYER 1
+
+#define SERVER_PORT 10001
+#define CLIENT_PORT 10002
+#define BROADCAST_PORT 10003
+
+
+
+#define BACK_GROUND_ST0_Z 1
+#define BACK_GROUND_ST_Z 10
+#define GROUND_ST_Z 50
+
+#define SPRITE_ST_Z0 100
+#define FORE_GROUND_ST_Z0 150
+
+#define SPRITE_ST_Z1 200
+#define FORE_GROUND_ST_Z1 250
+#define SPRITE_ST_Z2 300
+#define FORE_GROUND_ST_Z2 350
+#define SPRITE_ST_Z3 400
+#define FORE_GROUND_ST_Z3 450
+
+#define BULLET_ST_Z 500
+#define TOUCH_LAYER_ST_Z 600
+#define OPEN_DOOR_Z  5000
+#define NEWBIE_GUIDE_UI_Z 10000
+
+
+
+#define MAP_SKY_LAYER_Z     0
+#define MAP_BG_LAYER_Z      10000
+
+#define MAP_BG_LAYER_ST_Z   100
+#define MAP_GROUND_LAYER_Z  20000
+
+#define GROUND_NODE_START_Z 10000
+#define GROUND_POKUER_START_Z 20000
+#define BULLET_START_Z 30000
+#define FORGROUND_START_Z 40000
+
+//#define POKUER_WIDTH 30
+//#define POKUER_HEIGHT 100
+
+// camera defautls
+#define CAMERA_SPEED_DEFUALT 10
+#define CAMERA_FOCUS_PERCENT_X 5
+#define CAMERA_FOCUS_PERCENT_Y 5
+
+// pokuer defaults
+#define POKUER_ACCELERATE_SPEED 50
+#define POKUER_DECCELERATE_SPEED 50
+#define POKUER_SPEED_SLOW 60
+#define POKUER_SPEED_NORMAL 100
+#define POKUER_SPEED_QUICK 200
+#define POKUER_SPEED_DASH 300
+
+// jump defaults
+#define POKUER_JUMP_HEIGHT 130
+#define POKUER_JUMP_TIME 0.3
+#define POKUER_JUMP_EASE 2.5
+#define POKUER_JUMP_FALL_HEIGHT 10000
+#define POKUER_JUMP_FALL_TIME 6
+#define POKUER_JUMP_FALL_EASE 1.5
+#define POKUER_JUMP_TOP_STOP_TIME 0.2
+
+#define POKUER_TRACK_TIME 0.5
+#define POKUER_GRAVITY 100
+#define POKUER_JUMP_SPEED 200
+
+#define CAMERA_BOX_LEFT 0.1
+#define CAMERA_BOX_RIGHT 0.3
+#define CAMERA_BOX_TOP 0.3
+#define CAMERA_BOX_BOTTOM 0.1
+
+#define DESIGN_MAP_WIDTH 1000
+
+//
+#define USER_DEFINE_BARRIER_INDEX_START 10000
+
+#define ACTION_COLLIDE_GROUP 1
+#define ACTION_ONENTER_GROUP 100
+#define ACTION_TRIGGER_GROUP 200
+#define ACTION_TOUCH_GROUP   300
+
+#define CODE_VERSION "1.1.8"
+#define RESOURCE_VERSION "1.1.8"
+
+#define LAYER_MARK 2360
+//#define POPUP_MARK 9625
+
+
+#define COMPRESS_PIC ".png"
+
+#define GREYDARK Color3B(100, 100, 100)
+#define WHITEBRIGHT Color3B::WHITE
+
+#define EDTaskNumber 5
+//#define DEBUG_AI_MOD 1
+
+#endif
